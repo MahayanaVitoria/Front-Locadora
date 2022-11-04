@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+    </style>
+    <title>Locadora</title>
+</head>
+<body>
+
+  <!-- CADASTRO DE CLIENTE -->
+
+  <h1>LOCADORA</h1>
+  <div>
+      <div class="form-group">
+        <label for="inputNome">Nome:</label>
+        <input type="text" class="form-control" id="name">
+        <!-- <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small> -->
+      </div>
+      <div class="form-group">
+        <label for="inputCpf">CPF:</label>
+        <input type="text" class="form-control" id="cpf">
+      </div>
+      <div class="form-group">
+        <label for="inputNasc">Data de Nascimento:</label>
+        <input type="date" class="form-control" id="birth-date">
+      </div>
+      <div class="form-group">
+        <label for="inputCep">CEP:</label>
+        <input type="text" class="form-control" id="cep">
+      </div>
+      <div>
+        <div class="form-group">
+          <label for="inputRua">Rua:</label>
+          <input type="text" class="form-control" id="road">
+        </div>
+        <div class="form-group">
+          <label for="inputNumero">Nº:</label>
+          <input type="text" class="form-control" id="number">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputRua">Telefone:</label>
+        <input type="phone" class="form-control" id="phone">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <!-- <div class="form-group">
+        <label for="exampleInputPassword1">Senha</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+      </div> -->
+      <!-- <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+      </div> -->
+      <button type="submit" class="btn btn-primary">Cadastrar Cliente</button>
+  </div>
+
+<!-- CADASTRO DE FILME -->
+
+    <div>
+      <div class="form-group">
+        <label for="inputFilme">Filme:</label>
+        <input type="text" class="form-control" id="movie">
+        <!-- <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small> -->
+      </div>
+      <div class="form-group">
+        <label for="inputGenero">Gênero:</label>
+        <input type="text" class="form-control" id="gender">
+      </div>
+      <div class="form-group">
+        <label for="inputAno">Ano de Lançamento:</label>
+        <input type="text" class="form-control" id="release-year">
+      </div>
+      <div class="form-group">
+        <label for="inputDiretor">Diretor:</label>
+        <input type="text" class="form-control" id="director">
+      </div>
+      <div>
+        <div class="form-group">
+          <label for="inputClassificacao">Classificação Indicativa:</label>
+          <input type="text" class="form-control" id="classification">
+        </div>
+      <button type="submit" class="btn btn-primary">Cadastrar Filme</button>
+  </div>
+
+  <!-- ALUGAR FILME -->
+
+  <div>
+    <div class="form-group">
+      <label for="inputFilme">Filme:</label>
+      <input type="text" class="form-control" id="movie">
+    </div>
+    <div class="form-group">
+      <label for="inputDataLoc">Data da Locação:</label>
+      <input type="date" class="form-control" id="date-loc">
+    </div>
+    <div class="form-group">
+      <label for="inputDataDev">Data da Devolução:</label>
+      <input type="date" class="form-control" id="date-dev">
+    </div>
+    <div class="form-group">
+      <label for="inputDiretor">Diretor:</label>
+      <input type="text" class="form-control" id="director">
+    </div>
+    <div>
+      <div class="form-group">
+        <label for="inputClassificacao">Classificação Indicativa:</label>
+        <input type="text" class="form-control" id="classification">
+      </div>
+    <button type="submit" class="btn btn-primary">Cadastrar Filme</button>
+    </div>
+
+</body>
+</html>
