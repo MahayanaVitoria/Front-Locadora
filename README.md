@@ -1,5 +1,5 @@
 # Front-Locadora
-<!-- CADASTRAR CLIENTE -->
+CADASTRAR CLIENTE
 Nome:
 CPF:
 Data de Nascimento: Datepicker
@@ -10,7 +10,7 @@ Telefone: Aplicar máscara
 Email: Validar
 Cadastrar Cliente (botão)
 
-<!-- CADASTRO DE FILME -->
+CADASTRO DE FILME
 Filme:
 Gênero:
 Ano de Lançamento:
@@ -18,7 +18,7 @@ Diretor:
 Classificação Indicativa:
 Cadastrar Filme (botão)
 
-<!-- ALUGAR FILME -->
+ALUGAR FILME
 
 Filme:
 Data da Locação:
@@ -27,8 +27,13 @@ Diretor:
 Classificação Indicativa:
 Alugar Filme (botão)
 
-<!-- LISTAR FILMES -->
+LISTAR FILMES
 Código:
 Nome:
 Situação:
 Valor:
+
+LISTAR CLIENTES
+Código:
+Nome:
+
