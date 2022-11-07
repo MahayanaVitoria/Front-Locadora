@@ -34,7 +34,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="cadastro-filme.html">Cadastro</a>
-                        <a class="dropdown-item" href="#">Lista</a>
+                        <a class="dropdown-item" href="listar-filme.html">Lista</a>
                     </div>
                 </li>
 
@@ -44,7 +44,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="cadastro-cliente.html">Cadastro</a>
-                        <a class="dropdown-item" href="#">Lista</a>
+                        <a class="dropdown-item" href="listar-cliente.html">Lista</a>
                     </div>
                 </li>
 
@@ -61,11 +61,11 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputFilme">Filme:</label>
-                <input type="text" class="form-control form-control-lg" id="movie">
+                <input type="text" class="form-control form-control-lg" id="movie" placeholder="Nome do Filme" required>
             </div>
             <div class="form-group col-md-3">
                 <label for="selectAno">Ano de Lançamento:</label>
-                <input type="text" class="form-control form-control-lg" id="release-year">
+                <input type="text" class="form-control form-control-lg" id="release-year" placeholder="2000">
             </div>
             <div class="form-group col-md-3">
                 <label for="selectLegenda">Tipo:</label>
@@ -101,7 +101,7 @@
             </div>
         </div>
         
-        <button type="submit" class="btn btn-lg btn-primary">Cadastrar Filme</button>
+        <button type="submit" class="btn btn-lg btn-secondary">Cadastrar Filme</button>
 
     </form>
 
